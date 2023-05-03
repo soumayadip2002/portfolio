@@ -1,15 +1,3 @@
-progress {
-    height: .3rem;
-}
-
-::-webkit-progress-bar {
-    background-color: #605b72;
-}
-
-::-webkit-progress-value {
-    background-color: #7bbff0;
-}
-
 .experience_container {
     display: grid;
     grid-template-columns: 1fr 1fr;

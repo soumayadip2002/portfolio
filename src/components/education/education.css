@@ -1,0 +1,84 @@
+.education_container {
+    display: grid;
+    grid-template-columns: repeat(2, 340px);
+    column-gap: 4rem;
+    justify-content: center;
+}
+
+.education_container>div>div {
+    position: relative;
+    padding-left: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.education_container>div>div::before {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: var(--color-primary);
+    left: 0.48rem;
+    top: 0;
+}
+
+.heading {
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    color: var(--color-primary-varient);
+    display: flex;
+    gap: .5rem;
+}
+
+.circle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1rem;
+    height: 1rem;
+    background: var(--color-primary);
+    border-radius: 50%;
+    border: 2px solid var(--color-primary);
+    transition: var(--transition);
+}
+
+.education_container>div>div:hover .circle {
+    background: var(--color-bg);
+    border-color: var(--color-primary-variant);
+}
+
+.schooling-icon {
+    font-size: 1.5rem;
+    margin-top: .5rem;
+    color: var(--color-primary-variant);
+}
+
+.year {
+    display: flex;
+    gap: .5rem;
+    font-size: .6rem;
+    color: var(--color-primary);
+    font-weight: bolder;
+}
+
+.education_container h3 {
+    font-size: 1rem;
+}
+
+.education_container h4 {
+    font-size: .9rem;
+    opacity: .8;
+}
+
+.year-icon {
+    margin-top: .2rem;
+}
+
+
+/* ======================= media query ======================= */
+
+@media screen and (max-width:1040px) {
+    .education_container {
+        grid-template-columns: repeat(1, 340px);
+        gap: 1.2rem;
+    }
+}

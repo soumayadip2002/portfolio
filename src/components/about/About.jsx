@@ -26,12 +26,6 @@ const About = () => {
             </article>
 
             <article className="about_card">
-              <FiUsers className="about_icon" />
-              <h5>clients</h5>
-              <small>200+worldwide</small>
-            </article>
-
-            <article className="about_card">
               <VscFolderLibrary className="about_icon" />
               <h5>projects</h5>
               <small>10+ projects</small>
@@ -39,12 +33,12 @@ const About = () => {
           </div>
 
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-            aliquid cupiditate beatae. Est accusamus, beatae ullam iure quos
-            aspernatur impedit ducimus obcaecati voluptas eum reprehenderit
-            adipisci fugit consequatur ex consequuntur illum quod fugiat
-            distinctio sed vero, nam magnam. Maiores, labore. Perspiciatis, at.
-            Iste hic mollitia iure, sequi doloremque quidem nemo.
+            Hi, I'm Soumayadip Saha, a 3rd-year CSE student at Techno
+            Engineering College Banipur. I'm passionate about learning and
+            interested in web development and data analytics. I have experience
+            in developing websites using HTML, CSS, JavaScript, php, MySQL. I'm
+            also proficient in data cleaning, visualization, and analysis using
+            Python libraries like Pandas and NumPy.
           </p>
 
           <a href="#contact" className="btn btn-primary">
