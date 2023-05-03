@@ -29,10 +29,9 @@ html {
     overflow-x: hidden;
 }
 
-
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
     display: none;
-} */
+}
 
 body {
     background: var(--color-bg);

@@ -4,6 +4,10 @@ import PIC1 from "../../img/pic-1.png";
 import PIC2 from "../../img/pic-2.png";
 import PIC3 from "../../img/pic-3.png";
 import PIC4 from "../../img/pic-4.png";
+import { Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
 const client = [
   {
     id: 1,
@@ -40,10 +44,10 @@ const Testimonal = () => {
       <h5>review from clients</h5>
       <h2>testimonals</h2>
 
-      <div className="container testimonal_container">
+      <Swiper slidesPerView={1} spaceBetween={40} pagination={{clickable:true}}  modules={[Pagination]} loop={true} className="container testimonal_container">
         {client.map(({ id, image, name, review }) => {
           return (
-            <article key={id} className="testimonal">
+            <SwiperSlide key={id} className="testimonal">
               <div className="client_avatar">
                 <img src={image} alt="" />
               </div>
@@ -51,10 +55,10 @@ const Testimonal = () => {
               <h5>{name}</h5>
 
               <small className="client_review">{review}</small>
-            </article>
+            </SwiperSlide>
           );
         })}
-      </div>
+      </Swiper>
     </section>
   );
 };
