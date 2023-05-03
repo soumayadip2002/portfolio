@@ -1,13 +1,13 @@
 import React from 'react'
 import {BsLinkedin} from 'react-icons/bs';
 import {FaGithub} from 'react-icons/fa';
-import {FiDribbble} from 'react-icons/fi'
+import {TfiEmail} from 'react-icons/tfi';
 const Social = () => {
   return (
     <div className="header_socials">
-        <a href="https://linkedin.com" target='blank'><BsLinkedin/> </a>
-        <a href="https://github.com" target='blank'><FaGithub/> </a>
-        <a href="https://dribble.com" target='blank'><FiDribbble/></a>
+        <a href="https://www.linkedin.com/in/soumayadip-saha-a839911b5" target='blank'><BsLinkedin/> </a>
+        <a href="https://github.com/soumayadip2002" target='blank'><FaGithub/> </a>
+        <a href="mailto:sinuroy696@gmail.com" target='blank'><TfiEmail/></a>
     </div>
   )
 }
