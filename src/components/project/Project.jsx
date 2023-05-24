@@ -15,7 +15,7 @@ const project_data = [
   {
     id: 1,
     image: IMG1,
-    title: "CMS management system",
+    title: "Content Management System",
     github: "https://github.com/soumayadip2002/Blog",
     demo: "https://thethoughtbox.000webhostapp.com/",
   },
