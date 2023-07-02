@@ -24,21 +24,21 @@ const Contact = () => {
             <TfiEmail className='contact_option-icon'/>
             <h4>email</h4>
             <h5>sinuroy696@gmail.com</h5>
-            <a href="mailto:sinuroy696@gmail.com" target='_blank'>send a message</a>
+            <a href="mailto:sinuroy696@gmail.com" target='_blank' rel="noreferrer">send a message</a>
           </article>
 
           <article className="contact_option">
             <FaFacebookMessenger className='contact_option-icon'/>
             <h4>Messanger</h4>
             <h5>soumayadip saha</h5>
-            <a href="https://www.facebook.com/soumyadip.saha.775" target='_blank'>send a message</a>
+            <a href="https://www.facebook.com/soumyadip.saha.775" target='_blank' rel="noreferrer">send a message</a>
           </article>
 
           <article className="contact_option">
             <SiWhatsapp className='contact_option-icon'/>
             <h4>Whatsapp</h4>
             <h5>soumayadip saha</h5>
-            <a href="https://api.whatsapp.com/send/?phone=919734090374&text&type=phone_number&app_absent=0" target='_blank'>send a message</a>
+            <a href="https://api.whatsapp.com/send/?phone=919734090374&text&type=phone_number&app_absent=0" target='_blank' rel="noreferrer">send a message</a>
           </article>
         </div>
 

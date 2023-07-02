@@ -60,7 +60,7 @@ const Education = () => {
         </div>
 
         <div className="learning">
-          <h5 className="heading"><GiBriefcase className="schooling-icon"/> Experience</h5>
+          <h5 className="heading"><GiBriefcase className="schooling-icon"/> Learning Experience</h5>
           {exp.map(({ id, school, sub, year }) => {
             return (
               <div key={id} className="learn">

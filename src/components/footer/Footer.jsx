@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./footer.css";
 import { FaFacebookF } from "react-icons/fa";
@@ -41,13 +42,13 @@ const Footer = () => {
       </ul>
 
       <div className="footer_social">
-        <a href="https://www.facebook.com/soumyadip.saha.775" target="_blank">
+        <a href="https://www.facebook.com/soumyadip.saha.775" target="_blank" rel="noreferrer">
           <FaFacebookF />
         </a>
-        <a href="https://www.instagram.com/soumyadip8052/" target="_blank">
+        <a href="https://www.instagram.com/soumyadip8052/" target="_blank" rel="noreferrer">
           <BsInstagram />
         </a>
-        <a href="https://twitter.com/SoumayadipS" target="_blank">
+        <a href="https://twitter.com/SoumayadipS" target="_blank" rel="noreferrer">
           <BsTwitter />
         </a>
       </div>

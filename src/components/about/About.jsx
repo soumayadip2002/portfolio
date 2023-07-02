@@ -1,8 +1,6 @@
 import React from "react";
 import "./about.css";
 import passport from "../../img/passport.jpg";
-import { RiAwardFill } from "react-icons/ri";
-import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 const About = () => {
   return (
@@ -13,17 +11,17 @@ const About = () => {
       <div className="container about_container">
         <div className="about_me">
           <div className="about_me-image">
-            <img src={passport} alt="About Image" />
+            <img src={passport} alt="About" />
           </div>
         </div>
 
         <div className="about_content">
           <div className="about_cards">
-            <article className="about_card">
+            {/* <article className="about_card">
               <RiAwardFill className="about_icon" />
               <h5>Experience</h5>
               <small>3+ years</small>
-            </article>
+            </article> */}
 
             <article className="about_card">
               <VscFolderLibrary className="about_icon" />
