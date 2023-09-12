@@ -38,6 +38,12 @@ const Education = () => {
       sub: "data analytics",
       year: "6+month",
     },
+    {
+      id:3,
+      school:"Nptel",
+      sub:"IOT",
+      year:"01/2022-04/2022"
+    }
   ];
   return (
     <section id="education">
